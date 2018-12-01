@@ -1,0 +1,19 @@
+{
+  "name": "lighthouse-azure-devops",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Andrejs Abrickis",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.12.10",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.1"
+  },
+  "dependencies": {
+    "chrome-launcher": "^0.10.5",
+    "lighthouse": "^4.0.0-alpha.2-3.2.1"
+  },
+  "scripts": {
+    "test": "ts-node main.ts"
+  }
+}
