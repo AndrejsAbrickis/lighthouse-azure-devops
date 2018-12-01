@@ -1,5 +1,4 @@
 /// <reference path="./node_modules/lighthouse/typings/externs.d.ts"/>
-
 import * as fs from 'fs';
 import * as chromeLauncher from 'chrome-launcher';
 import lighthouse from 'lighthouse/lighthouse-core';
