@@ -1,4 +1,3 @@
-/// <reference path="./node_modules/lighthouse/typings/externs.d.ts"/>
 import * as fs from 'fs';
 import * as chromeLauncher from 'chrome-launcher';
 import lighthouse from 'lighthouse/lighthouse-core';
@@ -9,7 +8,7 @@ const run = async (url: string, options: chromeLauncher.Options) => {
   options.port = chrome.port;
 
   try {
-    const results: LH.RunnerResult = await lighthouse(url, options);
+    const results = await lighthouse(url, options);
     const jsonReport = ReportGenerator.generateReport(results.lhr, 'json');
 
     fs.writeFile('results.json', jsonReport, (err) => {
