@@ -5,13 +5,13 @@
   "author": "Andrejs Abrickis",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^10.12.10",
-    "ts-node": "^7.0.1",
+    "@types/node": "^12.7.2",
+    "ts-node": "^8.3.0",
     "typescript": "^3.2.1"
   },
   "dependencies": {
-    "chrome-launcher": "^0.10.5",
-    "lighthouse": "^4.0.0-alpha.2-3.2.1"
+    "chrome-launcher": "^0.11.2",
+    "lighthouse": "^5.2.0"
   },
   "scripts": {
     "test": "ts-node main.ts"
